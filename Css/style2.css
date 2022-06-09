@@ -4,19 +4,17 @@ adapatar un web a disitintas resoliciones
 adapatar un web a disitintas resoliciones moviles
 **/
 *{
+    font-family: 'Sen', sans-serif;
     font-weight: 100;
 }
 
 .nav__responsive-ul{
-    display: none;
+    display: none;   
 }
 
 .nav{
-    background:slateblue;
-}
-
-.nav__responsive-ul{
-    background:slateblue;
+    background:rgb(19, 8, 87);
+    margin-left: 5%;
 }
 
 .nav__li{
@@ -41,24 +39,68 @@ adapatar un web a disitintas resoliciones moviles
 .nav__li i{
     width: 30px;
     box-sizing: border-box;
-    text-align: right ;
+    text-align: right;
     margin-right: 5px;
 }
 
-@media only screen and (max-width: 700px){
+
+@media only screen and (max-width: 600px){
     .nav__ul{
         display: none;
     }
-    .nav__responsive-ul{
-        display: inline-block;
+
+    .nav{
+        height: 37px;
+        width: 100%;
     }
+
+    .nav__responsive-ul{
+        display: block;
+        position: absolute;
+        width: 100%;
+        background: #9bf;
+        height: 100%;
+        margin-top: 27px;
+        padding-top: 32px;
+        
+    }
+
+    .nav__responsive-li{
+        width: 100%;
+        padding: 9px 20px;
+    }
+    
+    .nav__responsive-li i{
+        width: 30px;
+        box-sizing: border-box;
+        text-align: center;
+        margin-right: 5px;
+        width: 30px;
+        color: #016;
+    } 
+    
+    .nav__responsive-li a{
+        color: #016;
+        text-decoration: none;
 }
 
-.nav__responsive-ul{
-    float: left;
+.nav__responsive-button-container{
+    position: absolute;
+    width: 100%;
+    font-size: 50px;
+    background-color: #69c;
+    margin-top: -60px;
+
+}
+
+.nav__responsive-button{
+    width: 90%;
+    padding:  5px 25px;
+    text-align: right;
 }
 
 
+}
 
 
 
@@ -69,7 +111,7 @@ adapatar un web a disitintas resoliciones moviles
 
 
 
-
+/**
 h1{
     font-family: 'Dancing Script', cursive;
     font-size: 28 px;   

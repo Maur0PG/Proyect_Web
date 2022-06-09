@@ -785,3 +785,11 @@ visited despues de que viste
   object-position: top;
 }
 
+.MicuentaBK{
+ background: rgb(19, 8, 87);
+}
+
+.TituloCuenta{
+  margin-left: 7%;
+  color: rgb(246, 245, 245);
+}
