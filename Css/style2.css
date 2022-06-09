@@ -1,0 +1,89 @@
+/** Responsive desing  
+adapatar un web a disitintas resoliciones
+/** Movil first desing
+adapatar un web a disitintas resoliciones moviles
+**/
+*{
+    font-weight: 100;
+}
+
+.nav__responsive-ul{
+    display: none;
+}
+
+.nav{
+    background:slateblue;
+}
+
+.nav__responsive-ul{
+    background:slateblue;
+}
+
+
+
+.nav__li{
+    display: inline-block;
+    padding: 20px;
+    color: white;
+}
+
+.nav__li:hover > a{
+    color: darkslateblue;
+}
+
+.nav__li:hover{
+    color: darkslateblue;
+}
+
+.nav__li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav__li i{
+    width: 30px;
+    box-sizing: border-box;
+    text-align: right ;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 700px){
+    .nav__ul{
+        display: none;
+    }
+    .nav__responsive-ul{
+        display: inline-block;
+    }
+}
+
+.nav__responsive-ul{
+    float: left;
+}
+
+
+
+
+
+
+
+
+/**Contenido**/
+
+
+
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 28 px;   
+  }
+  
+  .caja10, .caja11{
+    width: 45%;
+    display: inline-block;
+    padding: 80px;
+    background-color: #595959;
+  }
+
+  .caja11{
+    background-color: #b5aaaa;
+  }

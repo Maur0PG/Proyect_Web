@@ -1,0 +1,787 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+a{
+    color: blue;
+}
+
+#compra{
+    color: aqua;
+}
+
+/*
+ID --> #id
+ATRIBITO --> [atributo = valor]
+Decendiente "<contenedor><elemento>" --> h2 p{}
+hover, mirar; para cambiar cuando pasa el indicador  --> pseudo class
+*/
+
+
+.form__input--rare{
+    color: firebrick;
+    font-size: 1em;
+    background-color: black;
+    width: 10vw;
+}
+
+
+/* Estio para hoja de vida*/
+
+
+.education-title {
+	font-size:1.5em;
+ 	line-height: 1.091;
+  	color: #2a2a2a;
+    margin-bottom: 1.6em;
+}
+
+.education-degree {
+	font-size: 1em;
+    line-height: 1.5;
+  	color: #2a2a2a;
+    margin-bottom: 1em;
+}
+
+.education-time {
+	font-size: 0.8em;
+    line-height: 2;
+  	color: #828282;
+    margin-bottom: 1.1em;
+}
+
+.accent {
+	color: #ff6b08;
+}
+
+aside{
+    width: 32.1em;
+    background-color: #1e2939;
+}
+
+.container{
+    
+    width: 75em;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    box-shadow:0.625em 0.625em 1.25em 0em hsla(0,0%, 0%, 0.1)
+}
+
+.left-side{
+    background-color: #1e2939;
+    color: #fff;
+    width: 23.1em;
+}
+
+.right-side{
+    padding-left: 5em;
+    padding-right: 12.5em;
+    padding-top: 4.25em;
+    padding-bottom: 4.25em;
+    width: 51.8em;
+}
+
+body {
+    background-color: #f5f7fa;
+    padding: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    width: 75em;
+    margin-left: auto;
+    margin-right: auto;
+  
+    background-color: #fff;
+    box-shadow: 0.31em 0.56em 1.25em rgba(0, 0, 0, 0.15);
+  }
+  
+  .bio,
+  .projects,
+  .jobs,
+  .education {
+    margin-bottom: 3.75em;
+  }
+  
+  .right-side {
+    width: 51.8em;
+    padding-left: 5em;
+    padding-right: 12.5em;
+    padding-top: 4.25em;
+    padding-bottom: 4.25em;
+  }
+  
+  .bio-title {
+    font-size: 2.81em;
+    line-height: 2;
+    margin-bottom: 1.25em;
+  }
+  
+  .bio-occupation {
+    margin-bottom: 1.68em;
+  }
+  
+  .bio-title,
+  .bio-occupation {
+    color: #2a2a2a;
+  }
+  
+  .bio-occupation,
+  .bio-about {
+    font-size: 0.68em;
+    line-height: 1.714;
+  }
+  
+  .bio-about {
+    color: #595959;
+  }
+  
+  .projects-title {
+    margin-bottom: 0.87em;
+    color: #2a2a2a;
+    font-size: 1.37em;
+    line-height: 1.5em;
+  }
+  
+  .projects-link {
+    color: #220fdc;
+    font-size: 0.87em;
+    line-height: 1.5em;
+  }
+  
+  .projects-link:hover {
+    color: #ff6b08;
+  }
+  
+  .jobs-title,
+  .education-title {
+    color: #2a2a2a;
+    font-size: 1.37em;
+    line-height: 1.091;
+  }
+  
+  .jobs-occupation,
+  .education-degree {
+    color: #2a2a2a;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  .jobs-time,
+  .education-time {
+    color: #828282;
+    font-size: 0.75em;
+    line-height: 2;
+  }
+  
+  .experience-item {
+    color: #595959;
+    font-size: 0.87em;
+    line-height: 1.714;
+  }
+  
+  .accent {
+    color: #ff6b08;
+  }
+  
+  /* ========= left-side ========= */
+  
+  .left-side {
+    width: 23.12em;
+    background-color: #1e2939;
+    color: #fff;
+  }
+  
+  .skills-title {
+    font-size: 1.37em;
+    line-height: 1.091;
+  }
+  
+  .skills-item {
+    font-size: 1.14em;
+    line-height: 1.714;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .skills-item::before {
+    content: "\2022";
+    margin-right: 0.5em;
+    color: #ff6b08;
+    font-size: 1.12em;
+  }
+  
+  .photo {
+    width: 23.12em;
+  }
+  
+  .photo,
+  .contacts,
+  .skills,
+  .widget {
+    margin-bottom: 3.75em;
+  }
+  
+  .contacts,
+  .skills,
+  .widget {
+    padding-left: 2.5em;
+  }
+  
+  .contacts-title,
+  .skills-title {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 1.37em;
+    font-weight: 700;
+    line-height: 1.5em;
+  }
+  
+  .contacts-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .contacts-item {
+    font-size: 0.87em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #ffffff;
+  }
+  
+  .contacts-link {
+    opacity: 0.6;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .contacts-link:hover {
+    opacity: 1;
+    text-decoration: underline;
+  }
+  
+  .widget-link {
+    color: #fff;
+    background-color: #ff6b08;
+    padding-top: 1.25em;
+    padding-right: 2.68em;
+    padding-bottom: 1.25em;
+    padding-left: 2.68em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.33em;
+    font-weight: bold;
+    box-shadow: 0em 0em 0.81em 0.0625em rgba(255,107,8,0.4);
+  }
+  
+  .widget-link:hover {
+    box-shadow: 0em 0.375em 2em 0.0625em rgba(255,107,8,0.92);
+  }
+  
+  .widget:hover {
+    animation: shake 1s;
+  }
+  
+  .photo:hover {
+    animation: pulse 1s;
+  }
+
+
+
+
+
+
+/* Selectores
+    *{} --> Universal = Todos los elementos
+    h1{}  --> Etiqueta (tipo de elemento) = h1, h2, p, a
+    <h1 class="nombre de la clase"></h1>--> clase = .changeColor{}  --> grupos
+    <h1 id="nombre del ID"></h1>  --> ID = #changeColor{}  -->  unico
+    <h1 id="nombre del ID" atrib= "nombreAtributo"></h1> --> atributo --> [atributo ="nombreAtributo"]{}
+    <h1><p>cambia lo de aqui</p></h1> --> decendiente--> h1 p{}
+    <h1><p>cambia lo de aqui<span>cosito</span></p></h1> --> decendiente--> h1 p span{}
+    pseudoclases ejemplo --> elemento:hover
+*/
+
+/* Especificidad (jerarquia):
+    !important --> señala el prioritario
+        Estilos de linea --> se escribe en el cod ejemplo <h1 style="red">Item</h1>
+            Identificadores --> ID
+                Clases --> changeColor
+                Pseudo-clases
+                atributos
+                    Elementos --> h1, h2, h3, p, a, 
+                    Pseudo-elementos
+*/ 
+
+/* Metdologia BEM
+    nombre de la clase __ nombre del elemento--elemento distinto
+    .form__input--active
+*/
+/* Propiedades de texto
+  
+
+*/
+
+/* Propiedades
+
+    font-size : Cambia tamaño de la letra 
+    font-family: Tipografia
+    line-height: Espacio total que ocupa la letra
+    font-weight: Grosor del tipo de letra;
+    
+*/
+
+/* teoria de Cajas 
+    box-sizing: borber:box; --> caja de un tamaño predifinido sin  aumentar
+    display. cambia el ancho de las cajas de html / inline - bloque
+    padding --> 1, parametro (1top), 2parametro(bottom), 3parametro,(rigth), 4parametro(left)
+    height --> edita el tamaño de la caja
+    text-align: alinea el texto
+    margin distancia entre 2 cajas
+    border radius, cuanto se va redondear el margen
+*/
+
+/* Propiedades de caja
+
+box model: 
+  content -> Contenido del texto, se modificac on el line-height
+  padding ->padding
+  border  -> border
+  margin  -> margin
+  auto --> margim + padding
+
+box shadow --> sombra a la caja
+outline no ocupa espacio y marca la caja
+
+position: --> mueve los elemetos de la posicon inicial en html // los elementos con position adquieren 
+
+  position relative --> conserva espacio
+
+
+
+*/
+
+.Titulo, .Somos{
+  font-family: 'Smooch', cursive;
+  font-size: 2.2em;
+  font-weight: 10;
+  line-height: 1;
+  color: rgb(218, 11, 11);
+}
+
+
+.Somos{
+  color: rgb(0, 0, 0);
+}
+
+.changeColor{
+  background-color: #828282;
+  display: inline-block;
+  padding: 100px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 1em;
+  border-radius: 0.8em;
+  border: 10px solid;
+  box-shadow: 2px 4px 10px 1px beige;
+  text-shadow: 2px 4px 10px antiquewhite;
+}
+
+.changeColor:hover{
+  color: aqua;
+}
+
+.inicio{
+  text-align: center;
+}
+
+
+/********************* Pruebas ************************/
+
+.Pruebas{
+  font-family: 'Smooch', cursive;
+  font-size: 3.2em;
+  padding: 100px;
+  display: inline-block;
+  color: rgb(8, 104, 230);
+  background-color: #a6c4dd;
+  box-sizing: content-box;
+  text-align: center;
+  margin: 50px;
+  border-radius: 10px;
+  border:solid brown;
+  box-shadow: 2px 4px 10px 4px blue;
+  text-shadow: 2px 4px 10px #595959;
+}
+
+.Pruebas:hover,.Pruebas1:hover,.Pruebas2:hover,.Pruebas3:hover{
+  color: aqua;
+}
+
+.Pruebas1{
+  font-family: 'Smooch', cursive;
+  font-size: 3.2em;
+  padding: 100px;
+  display: inline-block;
+  color: rgb(8, 104, 230);
+  background-color: #dda6bb;
+  box-sizing: content-box;
+  text-align: center;
+  margin: 50px;
+  border-radius: 10px;
+  border:solid brown;
+  box-shadow: 2px 4px 10px 4px blue;
+  text-shadow: 2px 4px 10px #595959;
+}
+
+.Pruebas2{
+  font-family: 'Smooch', cursive;
+  font-size: 3.2em;
+  padding: 100px;
+  display: inline-block;
+  color: rgb(8, 104, 230);
+  background-color: #8dc2a7;
+  box-sizing: content-box;
+  text-align: center;
+  margin: 50px;
+  border-radius: 10px;
+  border:solid brown;
+  box-shadow: 2px 4px 10px 4px blue;
+  text-shadow: 2px 4px 10px #595959;
+}
+
+.Pruebas3{
+  font-family: 'Smooch', cursive;
+  font-size: 3.2em;
+  padding: 100px;
+  display: inline-block;
+  color: rgb(8, 104, 230);
+  background-color: #d5dda6;
+  box-sizing: content-box;
+  text-align: center;
+  margin: 50px;
+  border-radius: 10px;
+  border:solid brown;
+  box-shadow: 2px 4px 10px 4px blue;
+  text-shadow: 2px 4px 10px #595959;
+}
+
+
+/** Position
+ EL flujo contruye en orden decendente
+cuando se posiciona un elemento adqueire cuatro propiedades; top, left,right, bottom
+en el Dom reserva espacios
+relative: mantiene el espacio conserva su espacio y obtiene las propiedades
+absolute: no mantiene el espacio conserva su espacio y obtiene las propiedades, su punto de referencia es el contenedor
+Fixed: queda fijado en un punto, es cuando la publicidad queda fija mientras el resto de la pagina baja
+
+
+**/
+.Caja1, .Caja2, .Caja3, .Caja4, .Caja5{
+  width: 200px;
+  height: 200px;
+  box-sizing: content-box;
+  text-align: center;
+  font-family: 'Smooch', cursive;
+  font-size: 2.2em;
+}
+
+.Caja1{
+  background-color: #ff6b08;
+  
+}
+
+.Caja2{
+  background-color: #08ff46;
+
+}
+.Caja3{
+  background-color: #2108ff;
+  
+}
+
+.Caja4{
+  background-color: #b908ff;
+
+}
+
+.Caja5{
+  background-color: #08ffd6;
+
+}
+
+
+
+.contenedor{
+  width: 800px;
+  height:800px;
+  background: rgb(129, 3, 247);
+  margin: auto;
+  position: relative;
+  border: solid rgba(255,107,8,0.92);
+}
+
+.hijo{
+  width: 200px;
+  height: 200px;
+  background: #2108ff;
+  position: relative;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+}
+
+
+
+
+div .Caja1,div .Caja2,div .Caja3,div .Caja4, div .Caja5{
+  width: 200px;
+  height: 200px;
+  font-family: 'Smooch', cursive;
+  font-size: 2.2em;
+  position: absolute;
+  border: solid burlywood;
+}
+
+div .Caja1{
+  right: 0;
+}
+
+div .Caja2{
+  right: 0;
+  bottom: 0;
+}
+
+div .Caja3{
+  bottom: 0;
+}
+
+div .Caja5{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.caja_fixed{
+  background-color: #08ffd6;
+  font-family: 'Smooch', cursive;
+  position: fixed;
+}
+.text{
+  font-size: 25px;
+  width: 1500px;
+}
+
+/** Propiedad Display: Modifica el comportamiento de las cajas**/
+
+.displaygrid1{
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  border: 10px solid chartreuse;
+  background-color: #85b6ff;
+  display: inline-block;
+  overflow: auto;
+}
+
+.displaygrid2{
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  border: 10px solid chartreuse;
+  background-color: #075ddd;
+  display: inline-block;
+  overflow-y:  scroll;
+  overflow-x:  scroll;
+}
+
+.displaygrid3{
+  width: 1770px;
+  height: 600px;
+  margin: auto;
+  border: 10px solid chartreuse;
+  background-color: hsl(0, 0%, 3%);
+  overflow: hidden;
+  position: relative;
+}
+
+.r1{
+  width: 1770px;
+  position: relative;
+  top: 4000px;
+  left: 7000px;
+  transition: all 1.0s;
+}
+
+.displaygrid3:hover > .r1{
+  width: 1770px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  position: relative;
+}
+
+
+.titulo_pruebas{
+  width: 400px;
+  height: 100px;
+  box-sizing: content-box;
+  text-align: center;
+  font-family: 'Smooch', cursive;
+  font-size: 2.4em;
+}
+
+.text{
+  float: left;
+  
+}
+.primario{
+  background-color: rgb(91, 143, 212);
+  float: right;
+  width: 50%;
+
+}
+
+.secundario{
+  background-color: rgb(8, 230, 108);
+  float: right;
+  width: 50%;
+}
+
+
+.cont{
+ width: 1500pX;
+border: 100px #08ffd6 ;
+}
+
+.terciario{
+  background-color: rgb(8, 30, 230);
+  float: left;
+  width: 60%;
+}
+
+.cont #x1{
+  float: right;
+  width: 40%;
+  top:  80px;
+}
+.divisor{
+  display: inline;
+  margin: 1000px;
+}
+
+form{
+  margin: 100px;
+  display: block;
+  background-color: #1e2939;
+  padding: auto;
+  width: 50%;
+}
+
+.input1{
+  padding: 6px;
+  width: 1000px;
+  
+}
+
+.input1::placeholder{
+  color:  red;
+  background-color: yellow;
+}
+
+.caja6{
+  height: 500px;
+  width: 500px;
+  background: #2108ff;
+  border: 3px solid yellow;
+  transition: background 1s, height 1s, width .4s, border 0.5s; 
+}
+
+.caja6:hover{
+  height: 400px;
+  width: 400px;
+  background: #08ff83;
+  border: solid red;
+}
+
+/** subclase LInk 
+link color antes de que visite
+visited despues de que viste
+**/
+
+
+.referencia:link{
+  margin: 20px;
+  color: #08ff46;
+  background-color: #08ffd6;
+}
+
+.referencia:visited{
+  color: violet;
+  background-color: #738683;
+}
+
+.caja7{
+  width: 250px;
+  height: 250px;
+  background: red;
+  transition: 1s;
+}
+
+.caja7:active{
+  background: blue;
+  width: 400px;
+}
+
+.input2{
+  margin: 40px;
+  padding: 6px;
+  width: 1000px;
+  background: lightslategray;
+  transition: background 1s, padding .4s;
+}
+.input2:focus{
+  background: white;
+  padding: 12px;
+}
+
+
+.caja8{
+  margin: 25px;
+}
+
+.caja8 b:lang(en){
+  background: blue;
+  width: 400px;
+}
+
+.caja9{
+  margin: 50px;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  border:  2px solid rebeccapurple;
+  background: thistle;
+  cursor: progress;
+}
+
+.caja9 img{
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+  border: 2px solid red;
+  object-position: top;
+}
+
